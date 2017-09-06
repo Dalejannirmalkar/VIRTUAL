@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "172810747746",
+    "firebase_url": "https://virtual-b9706.firebaseio.com",
+    "project_id": "virtual-b9706",
+    "storage_bucket": "virtual-b9706.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172810747746:android:8fe17cdfb9ea3835",
+        "android_client_info": {
+          "package_name": "neelima.sonal.prajapati.virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172810747746-ar8a9cu5cn0tplc4lk9j4abat3sqntlt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv_X2jstiMj18PnloRmLY4eVTakICCRfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

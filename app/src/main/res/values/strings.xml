@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Note Sharing</string>
+    <string name="title_activity_main2">Setting</string>
+    <string name="FCM_PREF">neelima.prajapati.sonal.virtualclassroom.fcm_pref</string>
+    <string name="FCM_TOKEN">neelima.prajapati.sonal.virtualclassroom.fcm_token</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

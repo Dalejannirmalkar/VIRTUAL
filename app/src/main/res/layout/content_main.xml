@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="neelima.sonal.prajapati.virtual.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+   <LinearLayout
+       android:id="@+id/l1"
+       android:layout_marginTop="80dp"
+       android:layout_marginLeft="120dp"
+       android:padding="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/pdfimage"
+           android:layout_width="60dp"
+           android:background="@mipmap/pdfimg"
+           android:layout_height="60dp" />
+       <TextView
+           android:id="@+id/pdftext"
+           android:textColor="#000000"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="PDF"
+           android:layout_gravity="center"/>
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:padding="5dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/documentimage"
+            android:layout_width="60dp"
+            android:background="@mipmap/documentimg"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/documenttext"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WORD FILE"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l3"
+        android:padding="5dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/videoimage"
+            android:layout_width="60dp"
+            android:background="@mipmap/videoimg"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/videotext"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="VIDEOS"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l4"
+        android:padding="5dp"
+        android:layout_below="@+id/l3"
+        android:layout_marginLeft="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/otherimage"
+            android:layout_width="60dp"
+            android:background="@mipmap/othersimg"
+            android:layout_height="60dp" />
+        <TextView
+            android:id="@+id/othertext"
+            android:layout_width="wrap_content"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="OTHERS"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
